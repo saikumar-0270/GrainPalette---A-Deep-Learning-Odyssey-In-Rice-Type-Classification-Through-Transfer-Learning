@@ -1,0 +1,33 @@
+GrainPalette-Rice-Type-Classification/
+│
+├── 📁 dataset/
+│   └── rice_types/                # Contains rice grain images categorized into subfolders
+│       ├── Basmati/
+│       ├── Jasmine/
+│       ├── Arborio/
+│       ├── Brown/
+│       └── White/
+│
+├── 📁 notebooks/
+│   └── rice_classification.ipynb  # Main Jupyter Notebook for training and evaluation
+│
+├── 📁 models/
+│   └── best_model.h5              # Saved trained model
+│
+├── 📁 src/
+│   ├── model.py                   # CNN/Transfer Learning model definition
+│   ├── preprocess.py              # Image preprocessing, augmentation, etc.
+│   └── predict.py                 # Script to predict new rice grain image
+│
+├── 📁 static/
+│   └── sample_images/             # Sample rice grain images for demo
+│
+├── 📁 web_app/
+│   ├── app.py                     # Flask or Streamlit app for UI
+│   ├── templates/
+│   │   └── index.html             # HTML frontend
+│   └── requirements.txt           # Dependencies
+│
+├── .gitignore
+├── README.md                      # Project overview and instructions
+└── LICENSE
